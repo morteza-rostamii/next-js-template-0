@@ -1,4 +1,8 @@
 {
+  "typedocOptions": {
+    "entryPoints": ["src/**/*.ts", "src/**/*.tsx"],
+    "out": "docs"
+  },
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
